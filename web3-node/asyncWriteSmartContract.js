@@ -3,8 +3,8 @@ var Tx = require('ethereumjs-tx');
 const rpcUrl = "https://ropsten.infura.io/v3/9d3abb594bbb4be99e86186d3d9e87de";
 const web3 = new Web3(rpcUrl);
 
-const account = "0xFeCc7f386CfEAc48EB0c0cc84d749AAE1f2ddEf9";
-const privateKey = "be6254367e70408d12672cce1c0a1f389746ebfba2e4f3a35d35879ab05efbb6";
+const account = "";
+const privateKey = "";
 const privateKeyBuffer = Buffer.from(privateKey, "hex");
 
 const contractAddres = "0x6D35A0A389fbc9a5549Fc96D71d9A3EB69Db8C01";
